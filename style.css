@@ -592,7 +592,7 @@ nav .manu-area ul li a {
 /* this is footer section  */
 footer {
   background: url("./image/footer/contact-us.jpg");
-  height: 530px;
+  height: 560px;
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 40px;
@@ -783,7 +783,7 @@ footer .all-heder-content h1::after {
     align-items: center;
     padding: 20px 25px;
     justify-content: center;
-    width: 400px;
+    width: 390px;
   }
   .header-content p {
     text-align: justify;
@@ -852,7 +852,8 @@ footer .all-heder-content h1::after {
 }
 @media only screen and (max-width: 480px) {
   nav .manu-area ul li a {
-    padding: 0 1px;
+    padding: 0 0px;
+    font-size: 12px;
   }
   .slider-section .header-text h1 {
     font-size: 39px;
@@ -881,10 +882,10 @@ footer .all-heder-content h1::after {
     width: 43%;
   }
   .contact-field-top input {
-    width: 350px;
+    width: 300px;
   }
   .contact-field-bottom textarea {
-    width: 350px;
+    width: 300px;
   }
   .supmit button {
     margin-left: 2%;
